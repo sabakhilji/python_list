@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    re=dict()
+    for i in range(n):
+        rec=input().split()
+        re[rec[0]]=(float(rec[1])+float(rec[2])+float(rec[3]))/3
+    print("%.2f"%re[input()])  
